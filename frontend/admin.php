@@ -46,15 +46,15 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
       <div class="panel-body">
         <div class="form-group">
           <label>Username</label>
-          <input type="text" class="form-control" id="username" placeholder="username"/>
+          <input type="text" class="form-control" id="username" placeholder="Username"/>
         </div>
         <div class="form-group">
           <label>Password</label>
-          <input type="password" placeholder="password" class="form-control" id="password" />
+          <input type="password" placeholder="Password" class="form-control" id="password" />
         </div>
         <div class="form-group">
           <label>Repeat Password</label>
-          <input type="password" placeholder="repeat" class="form-control" id="repeatpw" />
+          <input type="password" placeholder="Confirm Password" class="form-control" id="repeatpw" />
         </div>
         <button class="btn btn-success btn-block" onclick="createAdmin();">Submit</button>
       </div>
@@ -85,11 +85,11 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
             </div>
             <div class="form-group">
               <label>Password</label>&nbsp;<small>(Only set if needs change)</small>
-              <input type="password" placeholder="password" class="form-control" id="passwordChg" />
+              <input type="password" placeholder="Password" class="form-control" id="passwordChg" />
             </div>
             <div class="form-group">
               <label>Repeat Password</label>
-              <input type="password" placeholder="repeat" class="form-control" id="repeatpwChg" />
+              <input type="password" placeholder="Confirm Password" class="form-control" id="repeatpwChg" />
             </div>
             <div class="form-group">
               <label>Delete Admin</label><br />
