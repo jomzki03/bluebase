@@ -57,8 +57,8 @@ body {
 <div class="form-signin">
 <hr />
 <div class="alert alert-danger" style="display: none" role="alert" id='alertMsg'></div>
-<input class="form-control" type="text" name="username" placeholder="username" id="username" />
-<input class="form-control" type="password" name="password" placeholder="password" id="password" />
+<input class="form-control" type="text" name="username" placeholder="Username" id="username" />
+<input class="form-control" type="password" name="password" placeholder="Password" id="password" />
 <button type="submit" class="btn btn-primary btn-block" id='loginBtn'>Login</button>
 </div>
 </div>
