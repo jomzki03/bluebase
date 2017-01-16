@@ -8,7 +8,7 @@ if(isset($_SESSION['auth']) && $_SESSION['auth'] === 1){
 <head>
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <script src="js/jquery.min.js"></script>
-<title>BlueBase Login</title>
+<title>Cerberus Admin Login</title>
 <style>
 body {
   padding-top: 40px;
@@ -53,7 +53,7 @@ body {
 </head>
 <body>
 <div class="container">
-<h1 align="center">BlueBase Login</h1>
+<h1 align="center">Cerberus Admin Login</h1>
 <div class="form-signin">
 <hr />
 <div class="alert alert-danger" style="display: none" role="alert" id='alertMsg'></div>
