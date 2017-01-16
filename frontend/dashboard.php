@@ -49,15 +49,15 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
       <div class="panel-body">
         <div class="form-group">
           <label>Username</label>
-          <input type="text" class="form-control" id="username" placeholder="username" data-toggle="popover" title="Constraints" data-content="Valid characters: alphanumeric, _, -, ., @."/>
+          <input type="text" class="form-control" id="username" placeholder="Username" data-toggle="popover" title="Constraints" data-content="Valid characters: alphanumeric, _, -, ., @."/>
         </div>
         <div class="form-group">
           <label>First Name</label>
-          <input type="text" class="form-control" id="fname" placeholder="first name" />
+          <input type="text" class="form-control" id="fname" placeholder="First Name" />
         </div>
         <div class="form-group">
           <label>Last Name</label>
-          <input type="text" class="form-control" id="lname" placeholder="last name" />
+          <input type="text" class="form-control" id="lname" placeholder="Last Name" />
         </div>
         <div class="checkbox">
         <label><input id="chkExpire" type="checkbox" checked="true" onclick="toggleExpire();">Enable Expiration</input></label>
@@ -81,17 +81,17 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
         </div>
         <div class="form-group">
           <label>Password</label>
-          <input type="password" placeholder="password" class="form-control" id="password" />
+          <input type="password" placeholder="Password" class="form-control" id="password" />
         </div>
         <div class="form-group">
           <label>Repeat Password</label>
-          <input type="password" placeholder="repeat" class="form-control" id="repeatpw" />
+          <input type="password" placeholder="Confirm Password" class="form-control" id="repeatpw" />
         </div>
         <button class="btn btn-success btn-block" onclick="createUser();">Submit</button>
       </div>
     </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-7">
       <table class="table">
           <tr>
       <!--- <th>User ID</th> -->
@@ -127,15 +127,15 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
             <div class="form-group">
               <hidden type="text" id="useridChg"></hidden>
               <label>Username</label>
-              <input type="text" class="form-control" id="usernameChg" placeholder="username"/>
+              <input type="text" class="form-control" id="usernameChg" placeholder="Username"/>
             </div>
             <div class="form-group">
               <label>First Name</label>
-              <input type="text" class="form-control" id="fnameChg" placeholder="first name"/>
+              <input type="text" class="form-control" id="fnameChg" placeholder="First Name"/>
             </div>
             <div class="form-group">
               <label>Last Name</label>
-              <input type="text" class="form-control" id="lnameChg" placeholder="last name" />
+              <input type="text" class="form-control" id="lnameChg" placeholder="Last name" />
             </div>
             <div class="checkbox">
             <label><input id="chkExpireChg" type="checkbox" checked="true" onclick="toggleExpireChg();" >Enable Expiration</input></label>
@@ -159,11 +159,11 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
             </div>
             <div class="form-group">
               <label>Password</label>&nbsp;<small>(Only set if needs change)</small>
-              <input type="password" placeholder="password" class="form-control" id="passwordChg" />
+              <input type="password" placeholder="Password" class="form-control" id="passwordChg" />
             </div>
             <div class="form-group">
               <label>Repeat Password</label>
-              <input type="password" placeholder="repeat" class="form-control" id="repeatpwChg" />
+              <input type="password" placeholder="Confirm Password" class="form-control" id="repeatpwChg" />
             </div>
             <div class="form-group">
               <label>Delete User</label><br />
