@@ -9,7 +9,7 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>BlueBase Dashboard</title>
+<title>Cerberus Admin Dashboard</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/datepicker.css">
 <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
@@ -31,7 +31,7 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
             <span class="icon-bar"></span>
           </button>
         </div>
-        <a class="navbar-brand" href="#">BlueBase</a>
+        <a class="navbar-brand" href="#">Cerberus Panel</a>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Dashboard<span class="sr-only">(current)</span></a></li>
@@ -94,7 +94,7 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
     <div class="col-md-8">
       <table class="table">
           <tr>
-            <th>User ID</th>
+      <!--- <th>User ID</th> -->
             <th>Username</th>
             <th>First Name</th>
             <th>Last Name</th>
