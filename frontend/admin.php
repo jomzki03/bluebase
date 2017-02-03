@@ -9,7 +9,7 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>BlueBase Administrators</title>
+<title>Cerberus Administrators</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
 <script src="js/jquery.min.js"></script>
@@ -28,7 +28,7 @@ if(!isset($_SESSION['auth']) || $_SESSION['auth'] != 1){
             <span class="icon-bar"></span>
           </button>
         </div>
-        <a class="navbar-brand" href="#">BlueBase</a>
+        <a class="navbar-brand" href="#">Cerberus Administrator</a>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="dashboard.php">Dashboard<span class="sr-only">(current)</span></a></li>
